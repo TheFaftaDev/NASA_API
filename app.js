@@ -10,7 +10,7 @@
 
  }
 
- function mostrarDatos({ title, date, explanation, media_type, url }){
+ function mostrarDatos({ title, date, explanation, media_type, url   }){
     const titulo = document.querySelector('#titulo');
     titulo.innerHTML = title;
     const fecha = document.querySelector('#fecha');
